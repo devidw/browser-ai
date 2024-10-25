@@ -11,7 +11,7 @@
         "start": "PORT=9000 BODY_SIZE_LIMIT=Infinity node ./build/index.js"
     },
     "devDependencies": {
-        "@sveltejs/adapter-auto": "^3.0.0",
+        "@sveltejs/adapter-node": "^5.2.8",
         "@sveltejs/kit": "^2.0.0",
         "@sveltejs/vite-plugin-svelte": "^4.0.0",
         "@types/dom-chromium-ai": "^0.0.2",
@@ -20,10 +20,9 @@
         "svelte": "^5.0.0",
         "svelte-autosize": "^1.1.0",
         "svelte-check": "^4.0.0",
+        "svelte-markdown": "^0.4.1",
         "typescript": "^5.0.0",
         "unocss": "^0.63.6",
-        "vite": "^5.0.3",
-        "svelte-markdown": "^0.4.1"
-    },
-    "dependencies": {}
+        "vite": "^5.0.3"
+    }
 }
