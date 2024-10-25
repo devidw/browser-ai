@@ -1,0 +1,28 @@
+{
+    "name": "web",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-auto": "^3.0.0",
+        "@sveltejs/kit": "^2.0.0",
+        "@sveltejs/vite-plugin-svelte": "^4.0.0",
+        "@types/dom-chromium-ai": "^0.0.2",
+        "@unocss/reset": "^0.63.6",
+        "@unocss/transformer-directives": "^0.63.6",
+        "svelte": "^5.0.0",
+        "svelte-autosize": "^1.1.0",
+        "svelte-check": "^4.0.0",
+        "typescript": "^5.0.0",
+        "unocss": "^0.63.6",
+        "vite": "^5.0.3",
+        "svelte-markdown": "^0.4.1"
+    },
+    "dependencies": {}
+}
